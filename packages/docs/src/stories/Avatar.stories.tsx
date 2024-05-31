@@ -8,6 +8,13 @@ export default {
     src: 'https://github.com/fekleite.png',
     alt: 'Fernanda Leite',
   },
+  argTypes: {
+    src: {
+      control: {
+        type: 'text',
+      },
+    },
+  },
 } as Meta<AvatarProps>
 
 export const Default: StoryObj<AvatarProps> = {}
